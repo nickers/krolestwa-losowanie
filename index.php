@@ -51,7 +51,7 @@
 
 
 <?php 
-error_reporting(E_ALL); 
+error_reporting(0); 
 if (isset($_POST['dane_zapamietane'])) {
 	$_POST['dane'] = unserialize(base64_decode($_POST['dane_zapamietane']));
 }
